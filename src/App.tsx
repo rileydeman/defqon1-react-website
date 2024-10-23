@@ -1,4 +1,3 @@
-import './App.css'
 import CounterRoot from "./components/counter-provider.tsx";
 import Counter from "./components/counter.tsx";
 import Header from "./components/header.tsx";
