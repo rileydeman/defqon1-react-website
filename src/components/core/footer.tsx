@@ -4,7 +4,7 @@ export default function Footer() {
     return(
         <>
             <footer>
-                <p>&copy; 2023-{date.getFullYear()} rileydeman</p>
+                <p>&copy; 2023-{date.getFullYear()} rileydeman // Website made by <a href="https://www.rileydeman.com/" target="_blank">rileydeman</a></p>
             </footer>
         </>
     );

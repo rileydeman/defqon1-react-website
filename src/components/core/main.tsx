@@ -7,7 +7,7 @@ export default function Main() {
             <main>
                 <CounterRoot>
                     <div>
-                        <h1>This is my CounterApp</h1>
+                        <h1>DEFQON.1 INFOGRAPHIC COMING SOON!</h1>
                         <Counter></Counter>
                     </div>
                 </CounterRoot>

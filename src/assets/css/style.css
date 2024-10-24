@@ -1,16 +1,56 @@
 :root {
-    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-    line-height: 1.5;
-    font-weight: 400;
+    /** Dark theme primary colors */
+    --primary-a0: #e20613;
+    --primary-a10: #ea3f2c;
+    --primary-a20: #f25d45;
+    --primary-a30: #f8775d;
+    --primary-a40: #fd8f77;
+    --primary-a50: #ffa691;
 
-    color-scheme: dark light;
-    color: rgba(255, 255, 255, 0.87);
-    background-color: #242424;
+    /** Dark theme surface colors */
+    --surface-a0: #171717;
+    --surface-a10: #2c2c2c;
+    --surface-a20: #434343;
+    --surface-a30: #5b5b5b;
+    --surface-a40: #747474;
+    --surface-a50: #8e8e8e;
 
-    font-synthesis: none;
-    text-rendering: optimizeLegibility;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+    /** Dark theme mixed surface colors */
+    --surface-mixed-a0: #2b1b17;
+    --surface-mixed-a10: #40302c;
+    --surface-mixed-a20: #554643;
+    --surface-mixed-a30: #6c5e5b;
+    --surface-mixed-a40: #837774;
+    --surface-mixed-a50: #9a918e;
+
+    --text-primary: #FFFFFF;
+}
+[data-theme='light'] {
+    /** Light theme primary colors */
+    --primary-a0: #e20613;
+    --primary-a10: #ea3f2c;
+    --primary-a20: #f25d45;
+    --primary-a30: #f8775d;
+    --primary-a40: #fd8f77;
+    --primary-a50: #ffa691;
+
+    /** Light theme surface colors */
+    --surface-a0: #f0f0f0;
+    --surface-a10: #f2f2f2;
+    --surface-a20: #f3f3f3;
+    --surface-a30: #f5f5f5;
+    --surface-a40: #f7f7f7;
+    --surface-a50: #f8f8f8;
+
+    /** Light theme mixed surface colors */
+    --surface-mixed-a0: #f4ded8;
+    --surface-mixed-a10: #f5e2dc;
+    --surface-mixed-a20: #f7e5e1;
+    --surface-mixed-a30: #f8e9e5;
+    --surface-mixed-a40: #f9ede9;
+    --surface-mixed-a50: #faf0ee;
+
+    --text-primary: #000000;
 }
 
 * {
@@ -21,31 +61,40 @@
 
 a {
     font-weight: 500;
-    color: #646cff;
+    color: var(--primary-a0);
     text-decoration: inherit;
 
     &:hover {
-        color: #535bf2;
+        color: var(--primary-a10);
     }
 }
 
 h1 {
+    font-family: defqon;
+    letter-spacing: 4px;
     font-size: 3.2em;
+    color: var(--primary-a0);
+}
+
+p {
+    font-family: lato;
+    color: var(--text-primary);
 }
 
 body {
     width: 100%;
-    min-height: 100dvh;
+    background: var(--surface-a0);
 
     header {
         width: 100%;
         position: fixed;
         top: 0;
+        background-color: var(--surface-mixed-a0);
     }
 
     main {
         width: 100%;
-        min-height: 90vh;
+        min-height: 100dvh;
 
         display: flex;
         justify-content: center;
@@ -55,5 +104,6 @@ body {
 
     footer {
         width: 100%;
+        background-color: var(--surface-a10);
     }
 }
