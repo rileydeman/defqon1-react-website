@@ -7,10 +7,6 @@ export default function Counter() {
 
     return(
         <>
-            {/*<button onClick={() => counter.setContext(counter.context + 1)}>*/}
-            {/*    I have clicked this {counter.context} times!*/}
-            {/*</button>*/}
-
             <Button color="primary" loading={false} size="md" variant="solid" onClick={() => counter.setContext(counter.context + 1)}>
                 I have clicked this {counter.context} times!
             </Button>
