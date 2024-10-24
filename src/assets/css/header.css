@@ -1,0 +1,50 @@
+header {
+    padding: .5% .75%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    #headerIcon {
+        aspect-ratio: 1/1;
+        width: 4%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        img {
+            aspect-ratio: 1/1;
+            width: 90%;
+        }
+    }
+
+    nav {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-width: 50%;
+
+        .menuItem {
+            margin: 0 1%;
+            padding: .5% 1% !important;
+            box-sizing: border-box;
+            flex-shrink: 0;
+            flex-grow: 0;
+
+            p {
+                font-family: defqon;
+                font-size: 1.65em;
+                letter-spacing: 2px;
+            }
+
+            &:hover {
+                p {
+                    color: var(--primary-a0);
+                }
+            }
+        }
+    }
+
+    #themeSwitch-box {
+        min-width: 5%;
+    }
+}
