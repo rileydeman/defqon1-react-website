@@ -1,6 +1,4 @@
-import React, { useRef, useEffect } from 'react';
-import Counter from "../counter.tsx";
-import CounterRoot from "../counter-provider.tsx";
+import { useRef, useEffect } from 'react';
 
 export default function Cover() {
     const divRef = useRef<HTMLDivElement | null>(null);
@@ -15,7 +13,7 @@ export default function Cover() {
 
         const handleScroll = (): void => {
             if (divRef.current) {
-                const rect = divRef.current.getBoundingClientRect();
+                const rect: DOMRect = divRef.current.getBoundingClientRect();
 
                 if (window.scrollY + rect.top < 0) {
                     header.style.background = "var(--surface-mixed-a0)";
@@ -36,12 +34,13 @@ export default function Cover() {
     return (
         <>
             <section ref={divRef} id="cover">
-                <CounterRoot>
-                    <div>
-                        <h1>DEFQON.1 INFOGRAPHIC COMING SOON!</h1>
-                        <Counter />
-                    </div>
-                </CounterRoot>
+                <video autoPlay={true} muted loop>
+                    <source src="https://cdn.rileydeman.com/defqon1-infographic/videos/aftermovie-defqon1-2024.mp4" type="video/mp4" />
+                </video>
+
+                <div id="coverContent">
+                    <p>CoverContent</p>
+                </div>
             </section>
         </>
     );

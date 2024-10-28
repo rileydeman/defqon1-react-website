@@ -1,10 +1,10 @@
-import {useContext, useState} from "react";
+import {useState} from "react";
 import {Switch} from "@mui/joy";
 
 export default function SwitchBtn() {
     const [checked, setChecked] = useState<boolean>(false);
 
-    const switchTheme = (e):void => {
+    const switchTheme = ():void => {
         if (checked) {
             document.querySelector("body").setAttribute("data-theme", "dark");
             document.getElementById("headIcon").setAttribute("src", "/src/assets/img/defqon-icon-white.png");
@@ -23,8 +23,8 @@ export default function SwitchBtn() {
                 variant="solid"
                 size="lg"
                 checked={checked}
-                onChange={(event) => {
-                    switchTheme(event);
+                onChange={() => {
+                    switchTheme();
                 }}
             />
         </>
