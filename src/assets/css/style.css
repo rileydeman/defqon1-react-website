@@ -135,6 +135,10 @@ body {
                 background-color: var(--surface-a0-transparent);
             }
         }
+
+        #editions {
+            height: 100dvh;
+        }
     }
 
     footer {

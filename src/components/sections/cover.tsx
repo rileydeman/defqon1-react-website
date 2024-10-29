@@ -14,8 +14,9 @@ export default function Cover() {
         const handleScroll = (): void => {
             if (divRef.current) {
                 const rect: DOMRect = divRef.current.getBoundingClientRect();
+                //console.log(rect.top);
 
-                if (window.scrollY + rect.top < 0) {
+                if (rect.top < -(0.4 * window.innerHeight)) {
                     header.style.background = "var(--surface-mixed-a0)";
                 } else {
                     header.style.background = "transparent";
