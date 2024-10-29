@@ -7,10 +7,10 @@ interface I_counter_context {
 
 const counterContext = createContext<I_counter_context>({
     context: 0,
-    setContext: (value: number) => {}
+    setContext: () => {}
 });
 
-const CounterRoot: React.FC<{children?: ReactNode, className?: string}> = ({children, className}) => {
+const CounterRoot: React.FC<{children?: ReactNode, className?: string}> = ({children}) => {
     const [variable, setVariable] = useState(0);
     const set_variable = () => {setVariable(variable + 1)};
 
