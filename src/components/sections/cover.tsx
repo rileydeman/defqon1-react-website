@@ -40,7 +40,7 @@ export default function Cover() {
                 </video>
 
                 <div id="coverContent">
-                    <p>CoverContent</p>
+                    <img id="defqonLogo" src="/src/assets/img/defqon-where-legends-rise.png" alt=""/>
                 </div>
             </section>
         </>

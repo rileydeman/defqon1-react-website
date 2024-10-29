@@ -87,6 +87,7 @@ p {
 body {
     width: 100%;
     background: var(--surface-a0);
+    scroll-behavior: smooth;
 
     header {
         width: 100%;
@@ -131,8 +132,25 @@ body {
 
                 transition: background 1s ease;
 
-                /*background: linear-gradient(#00000000, var(--surface-a0));*/
-                background-color: var(--surface-a0-transparent);
+                background: linear-gradient(#00000000, #00000000, var(--surface-a0));
+                /*background-color: var(--surface-a0-transparent);*/
+
+                #defqonLogo {
+                    height: 50%;
+                }
+
+                @media screen and (max-width: 767px) {
+                    #defqonLogo {
+                        height: initial;
+                        width: 80%;
+                    }
+                }
+
+                @media screen and (max-width: 480px) {
+                    #defqonLogo {
+                        width: 90%;
+                    }
+                }
             }
         }
 
