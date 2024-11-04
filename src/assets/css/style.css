@@ -79,6 +79,14 @@ h1 {
     color: var(--primary-a0);
 }
 
+h2 {
+    font-family: defqon;
+    letter-spacing: 4px;
+    font-size: 3.2em;
+    color: var(--primary-a0);
+    margin-bottom: 1%;
+}
+
 p {
     font-family: lato;
     color: var(--text-primary);

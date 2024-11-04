@@ -2,7 +2,7 @@ import {createContext, ReactNode, useState} from "react";
 
 interface I_counter_context {
     context: number;
-    setContext: (value: number) => void;
+    setContext: () => void;
 }
 
 const counterContext = createContext<I_counter_context>({
