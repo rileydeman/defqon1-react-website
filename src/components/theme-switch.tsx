@@ -11,10 +11,10 @@ export default function SwitchBtn() {
         if (body && headIcon) {
             if (checked) {
                 body.setAttribute("data-theme", "dark");
-                headIcon.setAttribute("src", "/src/assets/img/defqon-icon-white.png");
+                headIcon.setAttribute("src", "https://cdn.defqon1.info/img/defqon-icon-white.png");
             } else {
                 body.setAttribute("data-theme", "light");
-                headIcon.setAttribute("src", "/src/assets/img/defqon-icon-black.png");
+                headIcon.setAttribute("src", "https://cdn.defqon1.info/img/defqon-icon-black.png");
             }
             setChecked(!checked);
         }

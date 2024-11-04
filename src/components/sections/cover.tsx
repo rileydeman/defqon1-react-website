@@ -36,11 +36,11 @@ export default function Cover() {
         <>
             <section ref={divRef} id="cover">
                 <video autoPlay={true} muted loop>
-                    <source src="https://cdn.rileydeman.com/defqon1-infographic/videos/aftermovie-defqon1-2024.mp4" type="video/mp4" />
+                    <source src="https://cdn.defqon1.info/vid/aftermovie-defqon1-2024.mp4" type="video/mp4" />
                 </video>
 
                 <div id="coverContent">
-                    <img id="defqonLogo" src="/src/assets/img/defqon-where-legends-rise.png" alt=""/>
+                    <img id="defqonLogo" src="https://cdn.defqon1.info/img/defqon-where-legends-rise.png" alt=""/>
                 </div>
             </section>
         </>

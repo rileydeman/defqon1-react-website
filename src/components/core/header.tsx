@@ -6,7 +6,7 @@ export default function Header() {
         <>
             <header id="header">
                 <a id="headerIcon" href="/">
-                    <img id="headIcon" src="/src/assets/img/defqon-icon-white.png" alt=""/>
+                    <img id="headIcon" src="https://cdn.defqon1.info/img/defqon-icon-white.png" alt=""/>
                 </a>
                 <Navigation/>
                 <div id="themeSwitch-box">
