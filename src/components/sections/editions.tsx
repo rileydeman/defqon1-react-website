@@ -11,6 +11,7 @@ export default function Editions() {
                         return (
                             <>
                                 <div className="er-item">
+                                    
                                     <figure>
                                         <img src={edition.cover} alt=""/>
                                     </figure>
