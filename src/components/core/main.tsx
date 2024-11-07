@@ -11,8 +11,8 @@ export default function Main() {
                 <Cover/>
                 <Editions/>
                 <Stages/>
-                <Artists/>
                 <Anthems/>
+                <Artists/>
             </main>
         </>
     );

@@ -1,0 +1,74 @@
+[
+  {
+    "name": "Red",
+    "genre": "All Harder Styles",
+    "image": "https://cdn.defqon1.info/img/stages/red.jpg",
+    "set": "https://youtu.be/jXBtF_QBBI0?si=T0-PkVlUcICVM_Q5"
+  },
+  {
+    "name": "Black",
+    "genre": "Hardcore",
+    "image": "https://cdn.defqon1.info/img/stages/black.jpg",
+    "set": "https://youtu.be/JzUYs83QErA?si=Kq1oTLdT3WVM38Up"
+  },
+  {
+    "name": "Blue",
+    "genre": "Raw Hardstyle",
+    "image": "https://cdn.defqon1.info/img/stages/blue.jpg",
+    "set": "https://youtu.be/ZBJ_gX_p4MA?si=EScVgGIutDyFT_VM"
+  },
+  {
+    "name": "UV",
+    "genre": "Hardstyle",
+    "image": "https://cdn.defqon1.info/img/stages/uv.jpg",
+    "set": "https://youtu.be/sE5XiJsoM5s?si=Y1RZVtBsWeOcZwlh"
+  },
+  {
+    "name": "Yellow",
+    "genre": "Uptempo/Terror",
+    "image": "https://cdn.defqon1.info/img/stages/yellow.jpg",
+    "set": "https://youtu.be/BQVgZQ1IZGI?si=iWL9reYwkhAsy05I"
+  },
+  {
+    "name": "Gold",
+    "genre": "Early rave/Millennium hardcore",
+    "image": "https://cdn.defqon1.info/img/stages/gold.jpg",
+    "set": ""
+  },
+  {
+    "name": "Magenta",
+    "genre": "Early Hardstyle",
+    "image": "https://cdn.defqon1.info/img/stages/magenta.jpg",
+    "set": ""
+  },
+  {
+    "name": "Indigo",
+    "genre": "Extra Raw",
+    "image": "https://cdn.defqon1.info/img/stages/indigo.jpg",
+    "set": "https://youtu.be/B1Lq-7onLE4?si=N3cfkQ0b7iHYqz9H"
+  },
+  {
+    "name": "Purple",
+    "genre": "Talents",
+    "image": "https://cdn.defqon1.info/img/stages/purple.jpg",
+    "set": ""
+  },
+  {
+    "name": "White",
+    "genre": "Freestyle",
+    "image": "https://cdn.defqon1.info/img/stages/green-silver-white.jpg",
+    "set": ""
+  },
+  {
+    "name": "Silver",
+    "genre": "Industrial hardcore",
+    "image": "https://cdn.defqon1.info/img/stages/green-silver-white.jpg",
+    "set": ""
+  },
+  {
+    "name": "Green",
+    "genre": "Techno",
+    "image": "https://cdn.defqon1.info/img/stages/green-silver-white.jpg",
+    "set": ""
+  }
+]
