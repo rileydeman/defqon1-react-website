@@ -1,5 +1,12 @@
 [
   {
+    "year": 2025,
+    "name": "Where Legends Rise",
+    "dj": "Vertile",
+    "spotify": "https://www.youtube.com/shorts/8hNBhNrRDp0",
+    "cover": "https://i.ytimg.com/vi/IQweyb84xIg/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLBfPLTIngE-iG8ANnZ5pxjRZfeUBQ"
+  },
+  {
     "year": 2024,
     "name": "Power of the Tribe",
     "dj": "Sound Rush",
@@ -8,86 +15,128 @@
   },
   {
     "year": 2023,
-    "name": "",
-    "dj": "",
-    "spotify": "",
-    "cover": ""
+    "name": "Path of the Warrior",
+    "dj": "Sub Zero Project",
+    "spotify": "https://open.spotify.com/track/7DpG8lVap8vg8mCGuX61i9?si=c16d919c12a94748",
+    "cover": "https://i.scdn.co/image/ab67616d00001e0266dea58775adccfef7b8701a"
   },
   {
     "year": 2022,
-    "name": "",
-    "dj": "",
-    "spotify": "",
-    "cover": ""
-  },
-  {
-    "year": 2021,
-    "name": "",
-    "dj": "",
-    "spotify": "",
-    "cover": ""
+    "name": "Primal Energy (Haunted Grounds)",
+    "dj": "Ghost Stories, D-Block & S-Te-Fan",
+    "spotify": "https://open.spotify.com/track/1AL97In5wDss9kvY8wRHH4?si=bb3baaa1382242ce",
+    "cover": "https://i.scdn.co/image/ab67616d00001e02ef9cfb1a74503b718698d7e8"
   },
   {
     "year": 2020,
-    "name": "",
-    "dj": "",
-    "spotify": "",
-    "cover": ""
+    "name": "Primal Energy",
+    "dj": "D-Block & S-Te-Fan",
+    "spotify": "https://open.spotify.com/track/3ppJijBGMSBnz45elmwh5V?si=4cc49f6397814e71",
+    "cover": "https://i.scdn.co/image/ab67616d00001e02d136a8955ff6485e1991c674"
   },
   {
     "year": 2019,
-    "name": "",
-    "dj": "",
-    "spotify": "",
-    "cover": ""
+    "name": "One Tribe",
+    "dj": "Sefa",
+    "spotify": "https://open.spotify.com/track/7rTs0BjMfhvif5LO3MhvJa?si=b61bf1a8c6894a74",
+    "cover": "https://i.scdn.co/image/ab67616d00001e02805661d0831f1b43f35814c3"
   },
   {
     "year": 2018,
-    "name": "",
-    "dj": "",
-    "spotify": "",
-    "cover": ""
+    "name": "Maximum Force",
+    "dj": "Project One",
+    "spotify": "https://open.spotify.com/track/6vV9M8Em7dLZ6c4Sjg0bfy?si=37c1e1a96b9c4c28",
+    "cover": "https://i.scdn.co/image/ab67616d00001e0221d51388c61913f98ffe432d"
   },
   {
     "year": 2017,
-    "name": "",
-    "dj": "",
-    "spotify": "",
-    "cover": ""
+    "name": "Victory Forever",
+    "dj": "Frequencerz",
+    "spotify": "https://open.spotify.com/track/7nYs1auxxJP7jQmJripaBS?si=2d5ac8a3121f47c9",
+    "cover": "https://i.scdn.co/image/ab67616d00001e02c5b7a3285a5919eb8e11fbb6"
   },
   {
     "year": 2016,
-    "name": "",
-    "dj": "",
-    "spotify": "",
-    "cover": ""
+    "name": "Dragonblood",
+    "dj": "Bass Modulators",
+    "spotify": "https://open.spotify.com/track/1gx1rjlRpMtHEvXiQSOXO7?si=454f37eba4974426",
+    "cover": "https://i.scdn.co/image/ab67616d00001e024e1c5ce5742423db52066dee"
   },
   {
     "year": 2015,
-    "name": "",
-    "dj": "",
-    "spotify": "",
-    "cover": ""
+    "name": "No Guts No Glory",
+    "dj": "Ran-D, Skits Vicious",
+    "spotify": "https://open.spotify.com/track/5niWktDYrgqE6FbStUkeDS?si=170d621180874983",
+    "cover": "https://i.scdn.co/image/ab67616d00001e02a5bcd8183d870ffef89f0400"
   },
   {
     "year": 2014,
-    "name": "",
-    "dj": "",
-    "spotify": "",
-    "cover": ""
+    "name": "Survival of the Fittest",
+    "dj": "Coone",
+    "spotify": "https://open.spotify.com/track/5LMRFEF54aq7CRsO8jL7EG?si=30b170d0aff640d7",
+    "cover": "https://i.scdn.co/image/ab67616d00001e0234fd1f54be6e46460c0cdbd5"
   },
   {
     "year": 2013,
-    "name": "",
-    "dj": "",
-    "spotify": "",
-    "cover": ""
+    "name": "Weekend Warriors",
+    "dj": "Frontliner",
+    "spotify": "https://open.spotify.com/track/1KhvOBEOYWZC85n0DvjGVx?si=166ed7b02900476f",
+    "cover": "https://i.scdn.co/image/ab67616d00001e02dd3b5c996204ba0f19a4ad28"
   },
   {
     "year": 2012,
-    "name": "",
-    "dj": "",
-    "spotify": "",
-    "cover": ""
+    "name": "World of Madness",
+    "dj": "Headhunterz, Wildstylez, Noisecontrollers",
+    "spotify": "https://open.spotify.com/track/0bRUBHo9v3FrvPrYqxSC9O?si=6e4919e2ec124616",
+    "cover": "https://i.scdn.co/image/ab67616d00001e02a4ed2da022f0a883c42f3a13"
+  },
+  {
+    "year": 2011,
+    "name": "Unite",
+    "dj": "Noisecontrollers",
+    "spotify": "https://open.spotify.com/track/0XOA5F6BHSLfXKAOrejCID?si=e269b8f0e7134157",
+    "cover": "https://i.scdn.co/image/ab67616d00001e02faacef547acb1e266d7db571"
+  },
+  {
+    "year": 2010,
+    "name": "No Time To Waste",
+    "dj": "Wildstylez",
+    "spotify": "https://open.spotify.com/track/54NLjntUle92cVAQvzBcXs?si=d50e77ee438a42a3",
+    "cover": "https://i.scdn.co/image/ab67616d00001e0212a5f4f246029c3701d22265"
+  },
+  {
+    "year": 2009,
+    "name": "Scap Attack",
+    "dj": "Headhunterz",
+    "spotify": "https://open.spotify.com/track/3HoqIMrRVvqXzpu0P04v5p?si=e0aac11132e149f8",
+    "cover": "https://i.scdn.co/image/ab67616d00001e0265487fa8a6613bae1359b050"
+  },
+  {
+    "year": 2008,
+    "name": "Biological Insanity",
+    "dj": "Luna, Deepack",
+    "spotify": "https://open.spotify.com/track/6p2JVN7bEkJcGN21poaPiC?si=00dd293b77494c68",
+    "cover": "https://i.scdn.co/image/ab67616d00001e0286aac466d786572cff537f58"
+  },
+  {
+    "year": 2007,
+    "name": "Get Wasted",
+    "dj": "Brennan Heart",
+    "spotify": "https://open.spotify.com/track/05v9hURk4GpQ0HXmoyytdA?si=8006577d2b6f4cf2",
+    "cover": "https://i.scdn.co/image/ab67616d00001e020b670e8c9891f73ee6df4f09"
+  },
+  {
+    "year": 2006,
+    "name": "The Colour of the Harder Styles",
+    "dj": "Showtek",
+    "spotify": "https://open.spotify.com/track/0hlwnrirmGXzFO5k8QsOUi?si=80256210a3c44ecb",
+    "cover": "https://i.scdn.co/image/ab67616d00001e02e33f546091637160e1a46836"
+  },
+  {
+    "year": 2005,
+    "name": "Emergency Call",
+    "dj": "The Prophet",
+    "spotify": "https://open.spotify.com/track/3wf5D1h9wkbNSfXK1IMilx?si=d9aa2447b4d7487b",
+    "cover": "https://i.scdn.co/image/ab67616d00001e023c568a253e525c8ccdc94e57"
   }
 ]

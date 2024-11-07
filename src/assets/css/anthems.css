@@ -6,6 +6,51 @@ body {
             flex-direction: column;
             justify-content: center;
             align-items: center;
+
+            #anthems-repeater {
+                width: 100%;
+                display: grid;
+                grid-template-columns: 32% 32% 32%;
+                gap: 1%;
+                padding: 1%;
+
+                .anthem-item {
+                    width: 100%;
+                    display: flex;
+                    background-color: var(--surface-a10);
+                    padding: 0;
+
+                    figure {
+                        aspect-ratio: 1/1;
+                        width: 25%;
+                        padding: 0;
+
+                        img {
+                            width: 100% !important;
+                            height: 100% !important;
+                            object-fit: cover;
+                        }
+                    }
+
+                    figcaption {
+                        padding: 2.5%;
+                        width: 75%;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-between;
+
+                        * {
+                            width: fit-content;
+                        }
+
+                        .anthem-title {
+                            font-family: defqon;
+                            font-size: 2em;
+                            margin: 0;
+                        }
+                    }
+                }
+            }
         }
     }
 }
