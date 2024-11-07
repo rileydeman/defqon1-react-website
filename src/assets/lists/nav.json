@@ -1,14 +1,14 @@
 [
     {
         "name": "Editions",
-        "url": "https://www.rileydeman.com/"
+        "url": "#editions"
     },
     {
         "name": "Stages",
-        "url": "https://www.rileydeman.com/"
+        "url": "#stages"
     },
     {
         "name": "Anthems",
-        "url": "https://www.rileydeman.com/"
+        "url": "#anthems"
     }
 ]
