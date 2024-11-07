@@ -7,7 +7,7 @@ export default function Counter() {
 
     return(
         <>
-            <Button color="primary" loading={false} size="md" variant="solid" onClick={() => counter.setContext()}>
+            <Button id="counter" color="danger" loading={false} size="md" variant="solid" onClick={() => counter.setContext()}>
                 I have clicked this {counter.context} times!
             </Button>
         </>

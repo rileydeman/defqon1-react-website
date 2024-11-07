@@ -97,6 +97,13 @@ body {
     background: var(--surface-a0);
     scroll-behavior: smooth;
 
+    #counter {
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        margin: 1%;
+    }
+
     header {
         width: 100%;
         position: fixed;
