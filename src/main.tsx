@@ -8,6 +8,7 @@ import "./assets/css/editions.css";
 import "./assets/css/stages.css";
 import "./assets/css/anthems.css";
 import "./assets/css/information.css";
+import "./assets/css/footer.css";
 import App from './App.tsx';
 
 createRoot(document.getElementById('root')!).render(
